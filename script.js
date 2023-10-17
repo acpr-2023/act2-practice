@@ -35,3 +35,17 @@ var swiper = new Swiper(".gallery-slider", {
     },
   },
 });
+
+function toggleMenu() {
+  const navbar = document.getElementById("navbar");
+  navbar.classList.toggle("active");
+}
+
+function checkScreenWidth() {
+  const windowWidth = window.innerWidth;
+
+  if (windowWidth > 768) {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.remove("active");
+  }
+}
