@@ -38,7 +38,7 @@ section {
 .heading {
   text-align: center;
   font-size: 4rem;
-  color: #485696;
+  color: #ffde59;
   text-transform: uppercase;
   margin-bottom: 3rem;
   padding: 1.2rem 0;
@@ -83,10 +83,12 @@ section {
   right: 0;
   z-index: 1000;
   background: #e7e7e7;
+  box-shadow: 0 10px 10px #ba70ff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem 9%;
+  background: linear-gradient(90deg, #04000f, #c262f7, #04000f);
 }
 
 .header .logo {
